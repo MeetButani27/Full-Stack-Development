@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20CS010 - Practical_3b</title>
+    <style>
+        h1 {
+            margin-top: 25px;
+            margin-bottom: 50px;
+            font-size: 40px;
+        }
+
+        p{
+            font-size: 32px;
+        }
+
+        .footer {
+            text-align: right;
+            padding-right: 50px; 
+            margin-top: 505px;
+        }
+    </style>
+</head>
+
+<body style="background-color: rgb(235, 219, 175);">
+    <center>
+        <h1>Practical_3b</h1>
+        <p>Go to Console to view the Output !!</p>
+    </center>
+
+    <div class='footer'>
+        <label style="font-weight: 500; font-size: 19px;">20CS010 - Meet Butani</label>
+    </div>
+
+    <script>
+        class Student {
+            constructor(rollno, first_name, last_name) {
+                this.rollno = rollno;
+                this.first_name = first_name;
+                this.last_name = last_name;
+            }
+
+            set setFirstName(f_name) {
+                this.first_name = f_name;
+            }
+
+            set setLastName(l_name) {
+                this.last_name = l_name;
+            }
+
+            get getFirstName() {
+                return this.first_name;
+            }
+
+            get getLastName() {
+                return this.last_name;
+            }
+        }
+
+        var s1 = new Student('20CS010', 'Meet', 'Butani')
+        console.log(s1.getFirstName + " " + s1.getLastName);
+        
+        // Using the setter method to change first and last name
+        s1.setFirstName = 'Manav';
+        s1.setLastName = 'Shah';
+        console.log(s1.getFirstName + " " + s1.getLastName);
+    </script>
+</body>
+</html>
