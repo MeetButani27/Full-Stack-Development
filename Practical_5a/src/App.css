@@ -1,0 +1,45 @@
+.App {
+  width: 28%;
+  margin-top: 8%;
+  margin-left: 36%;
+  border-radius: 8px;
+  background-color: rgb(146, 205, 186);
+  border: 1px solid black;
+}
+
+.App h1 {
+  padding-top: 12px;
+}
+
+.App label {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.App input {
+  font-size: 20px;
+  margin: 22px;
+  font-weight: 450;
+  border-radius: 2px;
+  background-color: rgb(244, 242, 237);
+}
+
+.App .submit {
+  font-size: 16px;
+  font-weight: 500;
+  border-width: 1.2px;
+  background-color: rgb(215, 211, 205);
+}
+
+.display{
+  width: 33.7%;
+  padding-left: 20px;
+  margin-top: 4%;
+  margin-left: 33%;
+  border-radius: 5px;
+  font-size: 20px;
+  display: flex;
+  border: 1px solid black;
+  background-color: rgb(146, 205, 186);
+  margin-bottom: 50px;
+}
